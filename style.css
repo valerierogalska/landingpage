@@ -40,9 +40,13 @@ a:hover {
   background-image: url(images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px 100px;
+  height: 100vh;
   color: #1C1E1E;
   text-shadow: 1px 1px 5px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #banner p {
@@ -54,20 +58,21 @@ a:hover {
     text-align: center;
     padding: 50px;
     width: 14%;
-    float: left;
 }
 
 .icon {
   width: 75%;
 }
 
-#container {
-  width: 76%;
-  margin: auto;
+.container {
+  padding: 50px 0;
+}
+
+.one {
+  padding-bottom: 130px;
 }
 
 #footer {
-  clear: both;
   padding: 50px;
   background-color: #1C1E1E;
   color: #f2f2f2;
