@@ -4,13 +4,13 @@ body {
   font-size: 1em;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 100;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.3px;
   margin: 0;
 }
 
 h1 {
   font-family: Helvetica, Arial, sans-serif;
-  color: #d5f2ef !important;
+  color: #dbecea !important;
   font-weight: 600;
   font-size: 2.4em;
   letter-spacing: 2px;
@@ -20,19 +20,34 @@ h2 {
   font-family: Helvetica, Arial, sans-serif;
   color: #a0bfb8 !important;
   font-size: 1.3em;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-weight: 300;
 }
 
+.btn-info {
+    background-color: #799e85 !important;
+    border-color: transparent !important;
+    padding: 12px 35px !important;
+}
+
 a {
-  color: #5bb7b1 !important;
+  color: white !important;
   text-decoration: none;
   font-weight:500;
 }
 
 a:hover {
-  color: white;
-  background-color: #5bb7b1;
+  color: white !important;
+  background-color: #475e4f !important;
+  text-decoration: none !important;
+}
+
+li a {
+  color: #799e85 !important;
+}
+
+li a:hover {
+  background-color: transparent !important;
 }
 
 #banner {
